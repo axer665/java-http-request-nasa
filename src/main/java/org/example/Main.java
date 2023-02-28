@@ -47,6 +47,9 @@ public class Main {
                 }
         );
 
+        //Выведем полученный объект в консоль
+        System.out.println(nasaDataItem);
+
         // Получаем адрес изображения или видео в виде строки
         String urlString = nasaDataItem.getContentUrl();
 
